@@ -1,0 +1,1044 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Ranga Images – Premium Photography Studio. Capturing Moments, Creating Forever Memories. Wedding, Portrait, Fashion & Event Photography in Bangalore." />
+  <meta name="keywords"
+    content="Ranga Images, photography studio, wedding photography, portrait photography, fashion photography, Bangalore photographer" />
+  <meta name="author" content="Ranga Images" />
+  <meta property="og:title" content="Ranga Images | Premium Photography Studio" />
+  <meta property="og:description" content="Capturing Moments, Creating Forever Memories" />
+  <meta property="og:type" content="website" />
+  <title>Ranga Images | Premium Photography Studio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600&family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- ===== LOADING SCREEN ===== -->
+  <div id="loader" class="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">
+        <span class="loader-brand-r">Ranga</span>
+        <span class="loader-brand-i">Images</span>
+      </div>
+      <div class="loader-line">
+        <div class="loader-progress"></div>
+      </div>
+      <p class="loader-text">Crafting your experience…</p>
+    </div>
+  </div>
+
+  <!-- ===== CUSTOM CURSOR ===== -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-serif">Ranga</span>
+        <span class="logo-thin">Images</span>
+      </a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+        <li><a href="#booking" class="nav-link nav-book">Book Now</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <canvas id="particlesCanvas" class="particles-canvas"></canvas>
+    <div class="hero-bg" id="heroBg" style="
+          background-image: url(&quot;https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&q=85&auto=format&fit=crop&quot;);
+        "></div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <div class="hero-eyebrow reveal-fade">
+        <span class="eyebrow-dot"></span> Premium Photography Studio
+      </div>
+
+      <h1 class="hero-title">
+        <span class="hero-title-line reveal-up" style="--delay: 0.1s">Ranga</span>
+        <span class="hero-title-line gold-italic reveal-up" style="--delay: 0.25s">Images</span>
+      </h1>
+
+      <p class="hero-tagline reveal-up" style="--delay: 0.4s">
+        Capturing Moments, Creating Forever Memories
+      </p>
+
+      <p class="hero-desc reveal-up" style="--delay: 0.55s">
+        Award-winning luxury photography for life's most extraordinary
+        moments.<br />
+        Weddings · Portraits · Fashion · Cinematic Storytelling
+      </p>
+
+      <div class="hero-actions reveal-up" style="--delay: 0.7s">
+        <a href="#portfolio" class="btn btn-gold">
+          <span>View Portfolio</span><i class="arrow-icon">&#8594;</i>
+        </a>
+        <a href="#booking" class="btn btn-ghost">
+          <span>Book a Session</span>
+        </a>
+      </div>
+
+      <div class="hero-scroll reveal-up" style="--delay: 0.85s">
+        <div class="scroll-pill">
+          <div class="scroll-ball"></div>
+        </div>
+        <span>Scroll to explore</span>
+      </div>
+    </div>
+
+    <div class="hero-watermark" aria-hidden="true">RANGA IMAGES</div>
+  </section>
+
+  <!-- ===== STATS / COUNTERS ===== -->
+  <section class="stats-section" id="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item reveal-up" style="--delay: 0s">
+          <span class="stat-num" data-target="1000">0</span><span class="stat-sym">+</span>
+          <span class="stat-lbl">Weddings Captured</span>
+        </div>
+        <div class="stat-item reveal-up" style="--delay: 0.1s">
+          <span class="stat-num" data-target="13">0</span><span class="stat-sym">+</span>
+          <span class="stat-lbl">Years of Excellence</span>
+        </div>
+        <div class="stat-item reveal-up" style="--delay: 0.2s">
+          <span class="stat-num" data-target="2400">0</span><span class="stat-sym">+</span>
+          <span class="stat-lbl">Happy Clients</span>
+        </div>
+        <div class="stat-item reveal-up" style="--delay: 0.3s">
+          <span class="stat-num" data-target="35">0</span><span class="stat-sym">+</span>
+          <span class="stat-lbl">Awards Won</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Visual column -->
+        <div class="about-visuals reveal-left">
+          <div class="about-img-primary">
+            <img src="https://images.unsplash.com/photo-1554048612-b6a482bc67e5?w=640&q=85&auto=format&fit=crop"
+              alt="Ranga – Lead Photographer" loading="lazy" />
+          </div>
+          <div class="about-img-secondary">
+            <img src="https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=380&q=80&auto=format&fit=crop"
+              alt="Professional camera equipment" loading="lazy" />
+          </div>
+          <div class="about-exp-badge">
+            <span class="badge-num">12+</span>
+            <span class="badge-lbl">Years of Excellence</span>
+          </div>
+        </div>
+
+        <!-- Text column -->
+        <div class="about-text-col reveal-right">
+          <div class="section-tag">Our Story</div>
+          <h2 class="section-title">Where Art<br />Meets <em>Emotion</em></h2>
+          <div class="gold-line"></div>
+
+          <p class="body-text">
+            Ranga Images was born from a deep love for storytelling through
+            light, shadow, and human connection. Based in the heart of
+            Bangalore, we are a premium photography studio dedicated to
+            capturing life's most precious moments with cinematic artistry and
+            unwavering passion.
+          </p>
+          <p class="body-text">
+            Our approach is intimate, editorial, and deeply personal. We
+            believe every photograph should <em>evoke feeling</em> — not
+            merely document a moment. With over 12 years of experience and
+            2,400+ happy clients, we bring a refined eye and passionate heart
+            to every single shoot.
+          </p>
+
+          <div class="about-pillars">
+            <div class="pillar">
+              <div class="pillar-icon">◈</div>
+              <div class="pillar-body">
+                <h4>Cinematic Vision</h4>
+                <p>Every frame composed like a movie still</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon">◈</div>
+              <div class="pillar-body">
+                <h4>Timeless Editing</h4>
+                <p>Hand-crafted post-processing for each image</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon">◈</div>
+              <div class="pillar-body">
+                <h4>Luxury Experience</h4>
+                <p>Premium service from consultation to delivery</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#booking" class="btn btn-gold">Begin Your Story&nbsp;<i class="arrow-icon">&#8594;</i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORTFOLIO ===== -->
+  <section id="portfolio" class="portfolio-section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-tag">Our Work</div>
+        <h2 class="section-title">Portfolio <em>Gallery</em></h2>
+        <div class="gold-line centered"></div>
+        <p class="section-subtitle">
+          A curated collection of our finest work across weddings, portraits,
+          fashion &amp; cinematic storytelling
+        </p>
+      </div>
+
+      <!-- Filter bar -->
+      <div class="filter-bar reveal-up">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="weddings">Weddings</button>
+        <button class="filter-btn" data-filter="portraits">Portraits</button>
+        <button class="filter-btn" data-filter="events">Events</button>
+        <button class="filter-btn" data-filter="fashion">Fashion</button>
+        <button class="filter-btn" data-filter="cinematic">Cinematic</button>
+        <button class="filter-btn" data-filter="nature">Nature</button>
+      </div>
+
+      <!-- Grid -->
+      <div class="portfolio-grid" id="portfolioGrid">
+        <div class="p-item" data-cat="weddings">
+          <div class="p-card">
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=700&q=85&auto=format&fit=crop"
+              alt="Sarah & Michael – Wedding" loading="lazy" />
+            <div class="p-overlay">
+              <span class="p-cat-tag">Weddings</span>
+              <h3>Sarah &amp; Michael</h3>
+              <button class="p-view-btn"
+                data-src="https://images.unsplash.com/photo-1519741497674-611481863552?w=1400&q=90&auto=format&fit=crop"
+                data-title="Sarah &amp; Michael" data-cat="Weddings">
+                View&nbsp;&#8594;
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-item tall" data-cat="weddings">
+          <div class="p-card">
+            <img src="https://images.unsplash.com/photo-1606800052052-a08af7148866?w=700&q=85&auto=format&fit=crop"
+              alt="Priya & Rahul – Wedding" loading="lazy" />
+            <div class="p-overlay">
+              <span class="p-cat-tag">Weddings</span>
+              <h3>Priya &amp; Rahul</h3>
+              <button class="p-view-btn"
+                data-src="https://images.unsplash.com/photo-1606800052052-a08af7148866?w=1400&q=90&auto=format&fit=crop"
+                data-title="Priya &amp; Rahul" data-cat="Weddings">
+                View&nbsp;&#8594;
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-item" data-cat="portraits">
+          <div class="p-card">
+            <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=700&q=85&auto=format&fit=crop"
+              alt="Elegance Portrait" loading="lazy" />
+            <div class="p-overlay">
+              <span class="p-cat-tag">Portraits</span>
+              <h3>Elegance Portrait</h3>
+              <button class="p-view-btn"
+                data-src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1400&q=90&auto=format&fit=crop"
+                data-title="Elegance Portrait" data-cat="Portraits">
+                View&nbsp;&#8594;
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-item wide" data-cat="events">
+          <div class="p-card">
+            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1000&q=85&auto=format&fit=crop"
+              alt="Grand Gala 2024" loading="lazy" />
+            <div class="p-overlay">
+              <span class="p-cat-tag">Events</span>
+              <h3>Grand Gala 2024</h3>
+              <button class="p-view-btn"
+                data-src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1600&q=90&auto=format&fit=crop"
+                data-title="Grand Gala 2024" data-cat="Events">
+                View&nbsp;&#8594;
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-item" data-cat="fashion">
+          <div class="p-card">
+            <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=700&q=85&auto=format&fit=crop"
+              alt="Couture Editorial" loading="lazy" />
+            <div class="p-overlay">
+              <span class="p-cat-tag">Fashion</span>
+              <h3>Couture Editorial</h3>
+              <button class="p-view-btn"
+                data-src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=1400&q=90&auto=format&fit=crop"
+                data-title="Couture Editorial" data-cat="Fashion">
+                View&nbsp;&#8594;
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-item tall" data-cat="portraits">
+          <div class="p-card">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700&q=85&auto=format&fit=crop"
+              alt="Soul Series" loading="lazy" />
+            <div class="p-overlay">
+              <span class="p-cat-tag">Portraits</span>
+              <h3>Soul Series</h3>
+              <button class="p-view-btn"
+                data-src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=1400&q=90&auto=format&fit=crop"
+                data-title="Soul Series" data-cat="Portraits">
+                View&nbsp;&#8594;
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-item" data-cat="cinematic">
+          <div class="p-card">
+            <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=700&q=85&auto=format&fit=crop"
+              alt="The Golden Hour" loading="lazy" />
+            <div class="p-overlay">
+              <span class="p-cat-tag">Cinematic</span>
+              <h3>The Golden Hour</h3>
+              <button class="p-view-btn"
+                data-src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=1400&q=90&auto=format&fit=crop"
+                data-title="The Golden Hour" data-cat="Cinematic">
+                View&nbsp;&#8594;
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-item wide" data-cat="nature">
+          <div class="p-card">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=85&auto=format&fit=crop"
+              alt="Mountain Serenity" loading="lazy" />
+            <div class="p-overlay">
+              <span class="p-cat-tag">Nature</span>
+              <h3>Mountain Serenity</h3>
+              <button class="p-view-btn"
+                data-src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=90&auto=format&fit=crop"
+                data-title="Mountain Serenity" data-cat="Nature">
+                View&nbsp;&#8594;
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-item" data-cat="weddings">
+          <div class="p-card">
+            <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=700&q=85&auto=format&fit=crop"
+              alt="Eternal Vows" loading="lazy" />
+            <div class="p-overlay">
+              <span class="p-cat-tag">Weddings</span>
+              <h3>Eternal Vows</h3>
+              <button class="p-view-btn"
+                data-src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=1400&q=90&auto=format&fit=crop"
+                data-title="Eternal Vows" data-cat="Weddings">
+                View&nbsp;&#8594;
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-item" data-cat="fashion">
+          <div class="p-card">
+            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=700&q=85&auto=format&fit=crop"
+              alt="Noir Collection" loading="lazy" />
+            <div class="p-overlay">
+              <span class="p-cat-tag">Fashion</span>
+              <h3>Noir Collection</h3>
+              <button class="p-view-btn"
+                data-src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1400&q=90&auto=format&fit=crop"
+                data-title="Noir Collection" data-cat="Fashion">
+                View&nbsp;&#8594;
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-item tall" data-cat="cinematic">
+          <div class="p-card">
+            <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=700&q=85&auto=format&fit=crop"
+              alt="Film Noir" loading="lazy" />
+            <div class="p-overlay">
+              <span class="p-cat-tag">Cinematic</span>
+              <h3>Film Noir</h3>
+              <button class="p-view-btn"
+                data-src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=1400&q=90&auto=format&fit=crop"
+                data-title="Film Noir" data-cat="Cinematic">
+                View&nbsp;&#8594;
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-item" data-cat="nature">
+          <div class="p-card">
+            <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=700&q=85&auto=format&fit=crop"
+              alt="Wilderness" loading="lazy" />
+            <div class="p-overlay">
+              <span class="p-cat-tag">Nature</span>
+              <h3>Wilderness</h3>
+              <button class="p-view-btn"
+                data-src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1400&q=90&auto=format&fit=crop"
+                data-title="Wilderness" data-cat="Nature">
+                View&nbsp;&#8594;
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /portfolio-grid -->
+    </div>
+  </section>
+
+  <!-- ===== LIGHTBOX ===== -->
+  <div class="lightbox" id="lightbox" aria-modal="true" role="dialog" aria-label="Image preview">
+    <div class="lb-backdrop" id="lbBackdrop"></div>
+    <div class="lb-inner">
+      <button class="lb-close" id="lbClose" aria-label="Close lightbox">
+        &#10005;
+      </button>
+      <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous image">
+        &#8249;
+      </button>
+      <button class="lb-nav lb-next" id="lbNext" aria-label="Next image">
+        &#8250;
+      </button>
+      <div class="lb-img-wrap">
+        <img id="lbImg" src="" alt="" />
+        <div class="lb-spinner" id="lbSpinner"></div>
+      </div>
+      <div class="lb-caption">
+        <span id="lbTitle"></span>
+        <span id="lbCat"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-tag">What We Offer</div>
+        <h2 class="section-title">Premium <em>Services</em></h2>
+        <div class="gold-line centered"></div>
+        <p class="section-subtitle">
+          Tailored photography experiences crafted for life's extraordinary
+          moments
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <div class="svc-card reveal-up" style="--delay: 0.05s">
+          <div class="svc-icon-wrap">
+            <span class="svc-icon">&#9829;</span>
+          </div>
+          <h3>Wedding Photography</h3>
+          <p>
+            Complete wedding day coverage from preparations to reception —
+            cinematic storytelling that captures every precious detail.
+          </p>
+          <ul class="svc-list">
+            <li>Full day coverage (10–12 hrs)</li>
+            <li>2 Professional photographers</li>
+            <li>400+ edited images</li>
+            <li>Premium online gallery</li>
+          </ul>
+          <div class="svc-price">
+            Starting from <strong>&#8377;45,000</strong>
+          </div>
+          <a href="#booking" class="svc-link">Book Now &#8594;</a>
+        </div>
+
+        <div class="svc-card featured reveal-up" style="--delay: 0.1s">
+          <div class="svc-popular-badge">Most Popular</div>
+          <div class="svc-icon-wrap">
+            <span class="svc-icon">&#10022;</span>
+          </div>
+          <h3>Pre-Wedding Shoots</h3>
+          <p>
+            Romantic, cinematic pre-wedding sessions at breathtaking locations
+            that tell your unique love story.
+          </p>
+          <ul class="svc-list">
+            <li>Half / Full day sessions</li>
+            <li>2–3 outfit changes</li>
+            <li>100–150 edited images</li>
+            <li>Premium album included</li>
+          </ul>
+          <div class="svc-price">
+            Starting from <strong>&#8377;25,000</strong>
+          </div>
+          <a href="#booking" class="svc-link">Book Now &#8594;</a>
+        </div>
+
+        <div class="svc-card reveal-up" style="--delay: 0.15s">
+          <div class="svc-icon-wrap">
+            <span class="svc-icon">&#9733;</span>
+          </div>
+          <h3>Event Coverage</h3>
+          <p>
+            Corporate events, product launches, celebrations, and milestone
+            moments captured with professional precision.
+          </p>
+          <ul class="svc-list">
+            <li>Multi-hour coverage</li>
+            <li>Candid + formal shots</li>
+            <li>Quick turnaround</li>
+            <li>Print-ready files</li>
+          </ul>
+          <div class="svc-price">
+            Starting from <strong>&#8377;18,000</strong>
+          </div>
+          <a href="#booking" class="svc-link">Book Now &#8594;</a>
+        </div>
+
+        <div class="svc-card reveal-up" style="--delay: 0.2s">
+          <div class="svc-icon-wrap">
+            <span class="svc-icon">&#9673;</span>
+          </div>
+          <h3>Portrait Sessions</h3>
+          <p>
+            Individual, family, and professional portraits that reveal
+            personality and emotion through masterful lighting.
+          </p>
+          <ul class="svc-list">
+            <li>Studio or outdoor setting</li>
+            <li>Professional lighting setup</li>
+            <li>50–75 edited images</li>
+            <li>Same-week delivery</li>
+          </ul>
+          <div class="svc-price">
+            Starting from <strong>&#8377;8,000</strong>
+          </div>
+          <a href="#booking" class="svc-link">Book Now &#8594;</a>
+        </div>
+
+        <div class="svc-card reveal-up" style="--delay: 0.25s">
+          <div class="svc-icon-wrap">
+            <span class="svc-icon">&#9672;</span>
+          </div>
+          <h3>Commercial Photography</h3>
+          <p>
+            Brand photography, product shots, and commercial campaigns that
+            elevate your business visual identity.
+          </p>
+          <ul class="svc-list">
+            <li>Concept development</li>
+            <li>Brand consistency</li>
+            <li>Commercial license</li>
+            <li>Social media ready</li>
+          </ul>
+          <div class="svc-price">
+            Starting from <strong>&#8377;30,000</strong>
+          </div>
+          <a href="#booking" class="svc-link">Book Now &#8594;</a>
+        </div>
+
+        <div class="svc-card reveal-up" style="--delay: 0.3s">
+          <div class="svc-icon-wrap">
+            <span class="svc-icon">&#11042;</span>
+          </div>
+          <h3>Drone Photography</h3>
+          <p>
+            Breathtaking aerial perspectives for weddings, real estate, and
+            events using the latest drone technology.
+          </p>
+          <ul class="svc-list">
+            <li>DGCA certified operators</li>
+            <li>4K aerial footage</li>
+            <li>Wide area coverage</li>
+            <li>Cinematic edit included</li>
+          </ul>
+          <div class="svc-price">
+            Starting from <strong>&#8377;12,000</strong>
+          </div>
+          <a href="#booking" class="svc-link">Book Now &#8594;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section id="testimonials" class="testimonials-section">
+    <div class="testimonials-bg-img" style="
+          background-image: url(&quot;https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=1600&q=60&auto=format&fit=crop&quot;);
+        "></div>
+    <div class="testimonials-overlay"></div>
+
+    <div class="container" style="position: relative; z-index: 2">
+      <div class="section-header reveal-up">
+        <div class="section-tag">Client Love</div>
+        <h2 class="section-title">Words That <em>Inspire</em></h2>
+        <div class="gold-line centered"></div>
+      </div>
+
+      <div class="testi-slider" id="testiSlider">
+        <div class="testi-track" id="testiTrack">
+          <div class="testi-slide">
+            <div class="testi-card">
+              <div class="testi-quote">&#8220;</div>
+              <p class="testi-text">
+                Ranga Images surpassed all our expectations. The way they
+                captured our wedding day was beyond magical. Every photo tells
+                a story, every image made us cry happy tears. We couldn't
+                imagine our wedding album any other way.
+              </p>
+              <div class="testi-author">
+                <img
+                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&h=80&q=80&auto=format&fit=crop&crop=face"
+                  alt="Ananya Sharma" loading="lazy" />
+                <div class="testi-author-info">
+                  <h4>Ananya &amp; Karthik</h4>
+                  <span>Wedding Photography</span>
+                  <div class="testi-stars">
+                    &#9733;&#9733;&#9733;&#9733;&#9733;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-slide">
+            <div class="testi-card">
+              <div class="testi-quote">&#8220;</div>
+              <p class="testi-text">
+                The pre-wedding shoot was a dream come true. Ranga's vision
+                transformed ordinary locations into cinematic masterpieces.
+                The photos look straight out of a Bollywood film. Absolutely
+                stunning work from start to finish!
+              </p>
+              <div class="testi-author">
+                <img
+                  src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&q=80&auto=format&fit=crop&crop=face"
+                  alt="Meera Patel" loading="lazy" />
+                <div class="testi-author-info">
+                  <h4>Meera &amp; Vikram</h4>
+                  <span>Pre-Wedding Shoot</span>
+                  <div class="testi-stars">
+                    &#9733;&#9733;&#9733;&#9733;&#9733;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-slide">
+            <div class="testi-card">
+              <div class="testi-quote">&#8220;</div>
+              <p class="testi-text">
+                We hired Ranga Images for our annual corporate event and were
+                blown away by the professionalism and quality. Photos were
+                delivered quickly and looked incredibly polished. Will
+                definitely book again for future events!
+              </p>
+              <div class="testi-author">
+                <img
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&q=80&auto=format&fit=crop&crop=face"
+                  alt="Rohan Mehta" loading="lazy" />
+                <div class="testi-author-info">
+                  <h4>Rohan Mehta</h4>
+                  <span>Corporate Event</span>
+                  <div class="testi-stars">
+                    &#9733;&#9733;&#9733;&#9733;&#9733;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-slide">
+            <div class="testi-card">
+              <div class="testi-quote">&#8220;</div>
+              <p class="testi-text">
+                My fashion portfolio shoot was spectacular. Their eye for
+                fashion photography is unmatched — every shot captured my
+                brand's essence perfectly. The lighting, composition, and
+                editing are simply world-class. Highly recommended!
+              </p>
+              <div class="testi-author">
+                <img
+                  src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=80&h=80&q=80&auto=format&fit=crop&crop=face"
+                  alt="Zara Singh" loading="lazy" />
+                <div class="testi-author-info">
+                  <h4>Zara Singh</h4>
+                  <span>Fashion Photography</span>
+                  <div class="testi-stars">
+                    &#9733;&#9733;&#9733;&#9733;&#9733;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-slide">
+            <div class="testi-card">
+              <div class="testi-quote">&#8220;</div>
+              <p class="testi-text">
+                Our family portrait session was a beautiful experience from
+                start to finish. Ranga made everyone feel at ease and captured
+                genuine moments of joy. These photos are now our most
+                treasured family heirlooms. Priceless!
+              </p>
+              <div class="testi-author">
+                <img
+                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&q=80&auto=format&fit=crop&crop=face"
+                  alt="Suresh Kumar" loading="lazy" />
+                <div class="testi-author-info">
+                  <h4>The Kumar Family</h4>
+                  <span>Portrait Session</span>
+                  <div class="testi-stars">
+                    &#9733;&#9733;&#9733;&#9733;&#9733;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /testi-track -->
+
+        <div class="testi-controls">
+          <button class="testi-arrow" id="testiPrev" aria-label="Previous">
+            &#8249;
+          </button>
+          <div class="testi-dots" id="testiDots"></div>
+          <button class="testi-arrow" id="testiNext" aria-label="Next">
+            &#8250;
+          </button>
+        </div>
+      </div>
+      <!-- /testi-slider -->
+    </div>
+  </section>
+
+  <!-- ===== BOOKING ===== -->
+  <section id="booking" class="booking-section">
+    <div class="container">
+      <div class="booking-grid">
+        <!-- Info column -->
+        <div class="booking-info reveal-left">
+          <div class="section-tag">Get In Touch</div>
+          <h2 class="section-title">Book Your <em>Session</em></h2>
+          <div class="gold-line"></div>
+          <p class="body-text">
+            Ready to create something extraordinary? Fill out the form and
+            we'll get back to you within 24 hours to discuss your vision and
+            craft a tailored photography experience just for you.
+          </p>
+
+          <div class="contact-list">
+            <div class="contact-row">
+              <div class="contact-ic">&#128205;</div>
+              <div>
+                <h4>Studio Address</h4>
+                <p>
+                  123 Creative Street, Art District<br />Bangalore, Karnataka
+                  560001
+                </p>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="contact-ic">&#128222;</div>
+              <div>
+                <h4>Call / WhatsApp</h4>
+                <p>+91 98765 43210</p>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="contact-ic">&#9993;</div>
+              <div>
+                <h4>Email Us</h4>
+                <p>hello@rangaimages.com</p>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="contact-ic">&#9200;</div>
+              <div>
+                <h4>Studio Hours</h4>
+                <p>Mon–Sat: 9:00 AM – 7:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form column -->
+        <div class="booking-form-wrap reveal-right">
+          <form class="booking-form" id="bookingForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" id="fname" name="name" placeholder=" " autocomplete="name" />
+                <label for="fname">Full Name <span>*</span></label>
+                <span class="ferr" id="fnameErr"></span>
+              </div>
+              <div class="form-group">
+                <input type="email" id="femail" name="email" placeholder=" " autocomplete="email" />
+                <label for="femail">Email Address <span>*</span></label>
+                <span class="ferr" id="femailErr"></span>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <input type="tel" id="fphone" name="phone" placeholder=" " autocomplete="tel" />
+                <label for="fphone">Phone Number <span>*</span></label>
+                <span class="ferr" id="fphoneErr"></span>
+              </div>
+              <div class="form-group select-group">
+                <select id="ftype" name="eventType">
+                  <option value="">Select Event Type</option>
+                  <option value="wedding">Wedding Photography</option>
+                  <option value="prewedding">Pre-Wedding Shoot</option>
+                  <option value="portrait">Portrait Session</option>
+                  <option value="event">Event Coverage</option>
+                  <option value="fashion">Fashion Photography</option>
+                  <option value="commercial">Commercial Photography</option>
+                  <option value="drone">Drone Photography</option>
+                  <option value="other">Other</option>
+                </select>
+                <label for="ftype" class="select-lbl">Event Type <span>*</span></label>
+                <span class="ferr" id="ftypeErr"></span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <input type="date" id="fdate" name="preferredDate" placeholder=" " />
+              <label for="fdate">Preferred Date</label>
+            </div>
+
+            <div class="form-group">
+              <textarea id="fmsg" name="message" rows="4" placeholder=" "></textarea>
+              <label for="fmsg">Tell Us Your Vision <span>*</span></label>
+              <span class="ferr" id="fmsgErr"></span>
+            </div>
+
+            <button type="submit" class="btn btn-gold btn-full" id="submitBtn">
+              <span>Send Inquiry</span><i class="arrow-icon">&#8594;</i>
+            </button>
+
+            <div class="form-success" id="formSuccess" aria-live="polite">
+              <span class="success-check">&#10003;</span>
+              Thank you! We'll be in touch within 24 hours.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INSTAGRAM FEED ===== -->
+  <section class="insta-section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-tag">Follow Our Journey</div>
+        <h2 class="section-title">@rangaimages on <em>Instagram</em></h2>
+        <div class="gold-line centered"></div>
+      </div>
+
+      <div class="insta-grid reveal-up">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="insta-item">
+          <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=420&q=80&auto=format&fit=crop"
+            alt="Instagram post 1" loading="lazy" />
+          <div class="insta-hover">
+            <span class="insta-likes">&#9829;&nbsp;324</span>
+          </div>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="insta-item">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=420&q=80&auto=format&fit=crop"
+            alt="Instagram post 2" loading="lazy" />
+          <div class="insta-hover">
+            <span class="insta-likes">&#9829;&nbsp;512</span>
+          </div>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="insta-item">
+          <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=420&q=80&auto=format&fit=crop"
+            alt="Instagram post 3" loading="lazy" />
+          <div class="insta-hover">
+            <span class="insta-likes">&#9829;&nbsp;287</span>
+          </div>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="insta-item">
+          <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=420&q=80&auto=format&fit=crop"
+            alt="Instagram post 4" loading="lazy" />
+          <div class="insta-hover">
+            <span class="insta-likes">&#9829;&nbsp;445</span>
+          </div>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="insta-item">
+          <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=420&q=80&auto=format&fit=crop"
+            alt="Instagram post 5" loading="lazy" />
+          <div class="insta-hover">
+            <span class="insta-likes">&#9829;&nbsp;678</span>
+          </div>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="insta-item">
+          <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=420&q=80&auto=format&fit=crop"
+            alt="Instagram post 6" loading="lazy" />
+          <div class="insta-hover">
+            <span class="insta-likes">&#9829;&nbsp;391</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="insta-cta reveal-up">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">
+          Follow on Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand-col">
+            <div class="footer-logo">
+              <span class="logo-serif">Ranga</span>
+              <span class="logo-thin">Images</span>
+            </div>
+            <p class="footer-tagline">
+              Capturing Moments,<br />Creating Forever Memories
+            </p>
+            <div class="footer-socials">
+              <!-- Instagram -->
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"
+                class="social-ic">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                </svg>
+              </a>
+              <!-- Facebook -->
+              <a href="#" aria-label="Facebook" class="social-ic">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+                  <path
+                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                </svg>
+              </a>
+              <!-- YouTube -->
+              <a href="#" aria-label="YouTube" class="social-ic">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+                  <path
+                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                </svg>
+              </a>
+              <!-- Pinterest -->
+              <a href="#" aria-label="Pinterest" class="social-ic">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+                  <path
+                    d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.632-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-nav-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#booking">Book a Session</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-svc-col">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#booking">Wedding Photography</a></li>
+              <li><a href="#booking">Pre-Wedding Shoots</a></li>
+              <li><a href="#booking">Portrait Sessions</a></li>
+              <li><a href="#booking">Event Coverage</a></li>
+              <li><a href="#booking">Commercial Photography</a></li>
+              <li><a href="#booking">Drone Photography</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-newsletter-col">
+            <h4>Stay Inspired</h4>
+            <p>
+              Subscribe for our latest work, photography tips &amp; exclusive
+              offers.
+            </p>
+            <form class="newsletter-form" id="newsletterForm" novalidate>
+              <input type="email" placeholder="Your email address" required />
+              <button type="submit" aria-label="Subscribe">&#8594;</button>
+            </form>
+            <div class="footer-contact-info">
+              <p>&#128205;&nbsp;123 Creative Street, Bangalore</p>
+              <p>&#128222;&nbsp;+91 98765 43210</p>
+              <p>&#9993;&nbsp;hello@rangaimages.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>
+          &copy; 2025 Ranga Images. All rights reserved. Crafted with &#9825;
+          for art.
+        </p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== BACK TO TOP ===== -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    &#8679;
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
